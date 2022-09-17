@@ -26,7 +26,10 @@ Usage:
 python3 main.py test <trainingData> <testData> <learningType>
 ```
 
-Optimal eg: python3 main.py test trainVeryBig.txt testBig.txt dt
+Optimal eg: 
+```
+python3 main.py test trainVeryBig.txt testBig.txt dt
+```
 
 Output: Prints Error Rate
 
