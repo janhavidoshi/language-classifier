@@ -5,10 +5,12 @@ Detects whether a sentence is English or Dutch using decision trees and ada boos
 
 ## Training:
 
-Usage: python3 main.py train <examples> <hypothesisOut> <learning-type>
+Usage: 
+```
+python3 main.py train <examples> <hypothesisOut> <learning-type>
 (To change Max Depth and Number of Stumps, variables at the beginning of the code MAX_TREE_DEPTH = 2
 NO_OF_STUMPS = 1 need to be changed)
-
+```
 Optimal eg: python3 main.py train trainVeryBig.txt trainedModelDt dt
 
 Output: trainedModel serialized object created
